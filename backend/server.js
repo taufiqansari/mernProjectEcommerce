@@ -33,6 +33,6 @@ process.on("unhandledRejection", (err) => {
   console.log(`Shutting down the server due to unhandled Promise Rejection`);
 
   server.close(() => {
-    process.exit(1);
+    process.exit(1); //run
   });
 });
