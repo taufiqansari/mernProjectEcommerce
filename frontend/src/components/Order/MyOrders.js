@@ -4,7 +4,7 @@ import "./myOrders.css";
 import { useSelector, useDispatch } from "react-redux";
 import { clearErrors, myOrders } from "../../actions/orderAction";
 import { Link } from "react-router-dom";
-import Typography from "@material-ui/core/Typography";
+import { Typography } from "@mui/material";
 import MetaData from "../layout/MetaData";
 import Loader from "../layout/loader/Loader";
 import LaunchIcon from "@mui/icons-material/Launch";

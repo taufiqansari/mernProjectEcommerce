@@ -8,7 +8,7 @@ import {
   deleteReviews,
 } from "../../actions/productAction";
 
-import { Button } from "@material-ui/core";
+import { Button } from "@mui/material";
 import MetaData from "../layout/MetaData";
 import DeleteIcon from "@mui/icons-material/Delete";
 import StarIcon from "@mui/icons-material/Star";

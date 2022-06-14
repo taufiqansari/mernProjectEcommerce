@@ -2,7 +2,7 @@ import React from "react";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import LibraryAddCheckIcon from "@mui/icons-material/LibraryAddCheck";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-import { Typography, Step, Stepper, StepLabel } from "@material-ui/core";
+import { Typography, Step, Stepper, StepLabel } from "@mui/material";
 import "./CheckoutSteps.css";
 
 const CheckoutSteps = ({ activeStep }) => {

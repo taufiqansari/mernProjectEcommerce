@@ -3,7 +3,7 @@ import "./Payment.css";
 import { useSelector, useDispatch } from "react-redux";
 import CheckoutSteps from "./CheckoutSteps";
 import MetaData from "../layout/MetaData";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import {
   CardNumberElement,
   CardCvcElement,

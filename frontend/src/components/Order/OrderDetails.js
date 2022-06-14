@@ -3,7 +3,7 @@ import "./OrderDetails.css";
 import { useSelector, useDispatch } from "react-redux";
 import MetaData from "../layout/MetaData";
 import { Link } from "react-router-dom";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import { getOrderDetails, clearErrors } from "../../actions/orderAction";
 import Loader from "../layout/loader/Loader";
 
@@ -99,11 +99,9 @@ const OrderDetails = ({ match }) => {
                   order.orderItems.map((item) => (
                     <div key={item.product}>
                       <img src={item.image} alt="Product" />
-                      <Link to={`/product/${item.product}`}>
-                        {item.name}
-                      </Link>{" "}
+                      <Link to={`/product/${item.product}`}>{item.name}</Link>
                       <span>
-                        {item.quantity} X ₹{item.price} ={" "}
+                        {item.quantity} X ₹{item.price} =
                         <b>₹{item.price * item.quantity}</b>
                       </span>
                     </div>

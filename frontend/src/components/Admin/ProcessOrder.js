@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import MetaData from "../layout/MetaData";
 import { Link } from "react-router-dom";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import Sidebar from "./Sidebar";
 import {
   getOrderDetails,
@@ -12,7 +12,7 @@ import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/loader/Loader";
 
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
-import { Button } from "@material-ui/core";
+import { Button } from "@mui/material";
 import { UPDATE_ORDER_RESET } from "../../constants/orderConstants";
 import "./ProcessOrder.css";
 

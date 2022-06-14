@@ -1,7 +1,7 @@
 import { React } from "react";
 import "./Cart.css";
 import CartItemCard from "./CartItemCard.js";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
 import { useSelector, useDispatch } from "react-redux";
 import { addItemsToCart, removeItemsFromCart } from "../../actions/cartAction";

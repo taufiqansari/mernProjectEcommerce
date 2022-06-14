@@ -5,8 +5,8 @@ import { clearErrors, getProduct } from "../actions/productAction";
 import Loader from "../components/layout/loader/Loader";
 import Product from "../components/Home/Product";
 import Pagination from "@mui/material/Pagination";
-import { Slider } from "@material-ui/core";
-import { Typography } from "@material-ui/core";
+import { Slider } from "@mui/material";
+import { Typography } from "@mui/material";
 
 const categories = [
   "Laptop",

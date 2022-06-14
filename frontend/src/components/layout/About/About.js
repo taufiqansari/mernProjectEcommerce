@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutSection.css";
-import { Button, Typography, Avatar } from "@material-ui/core";
+import { Button, Typography, Avatar } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Images from "../../../images/Taufiqimage.jpg";
 const About = () => {
